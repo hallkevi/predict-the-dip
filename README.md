@@ -10,8 +10,8 @@ I changed the dataset to a two-column workbook, placed the dates with numbers an
 /*---Steps--*/
 
 1. Import of the respective packages
-I’m using Python 3.6 in Spyder, a powerful framework of the Anaconda IDE. 
-We are going to use Pandas to interpret our csv and Numpy for statistical operations. The result will be plotted in Matplotlib. 
+  I’m using Python 3.6 in Spyder, a powerful framework of the Anaconda IDE. 
+  We are going to use Pandas to interpret our csv and Numpy for statistical operations. The result will be plotted in           Matplotlib. 
 
 2. Get the data frame
 I’m using the ‘read_csv' package of Pandas to import our data set. The manipulated csv consists of 2 columns (‘ClosePrice’ and’Date’) and 394 rows without the column headers. We want to import the two columns as lists and see if we can get the data. Let’s print out the variables to see the data: 
